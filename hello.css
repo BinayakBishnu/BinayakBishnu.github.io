@@ -7,7 +7,7 @@ body {
 #div_hello {
   /* justify-content:center; */
   text-align: center;
-  background-image: url("/src/resources/hello_bg.png");
+  background-image: url("hello_bg.png");
   /* background-position:0; */
   background-size: cover;
   /* background-image: linear-gradient(#000000, #ffffff); */

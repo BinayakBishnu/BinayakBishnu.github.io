@@ -1,0 +1,197 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4b00fa;
+}
+
+#div_hello {
+  /* justify-content:center; */
+  text-align: center;
+  background-image: url("/src/resources/hello_bg.png");
+  /* background-position:0; */
+  background-size: cover;
+  /* background-image: linear-gradient(#000000, #ffffff); */
+  /* display: flex;
+    flex-direction: column;
+    justify-content: stretch; */
+  height: 40%;
+  position: relative;
+  padding-top: 1%;
+  /* padding: 0px; */
+  margin: 0px;
+}
+
+#hello_h1 {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(yellow));
+  background-image: linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  -webkit-transition: ease all 1s;
+  transition: ease all 1s;
+}
+
+@media only screen and (max-width: 600px) {
+  #hello_h1 {
+    font-size: 2.4em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #hello_h1 {
+    font-size: 4em;
+  }
+}
+
+#hello_para_div {
+  margin: 8% 0 0 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: ease all 1s;
+  transition: ease all 1s;
+}
+
+@media only screen and (max-width: 600px) {
+  #hello_para_div {
+    margin: 9% 0 0 0;
+  }
+}
+
+#hello_para1 {
+  /* text-align: center; */
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+#hello_para2 {
+  color: white;
+  margin-top: 1%;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 600px) {
+  #hello_para1 {
+    font-size: 1.1em;
+    -webkit-transition: ease all 1s;
+    transition: ease all 1s;
+  }
+  #hello_para2 {
+    font-size: 1em;
+    -webkit-transition: ease all 1s;
+    transition: ease all 1s;
+  }
+}
+
+#social_div {
+  background-color: rgba(75, 0, 250, 0.5);
+  padding: 2px;
+  border-radius: 5px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  -webkit-transition: ease all 1s;
+  transition: ease all 1s;
+}
+
+#social_div .breaks {
+  height: 6px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#social_div .mail {
+  height: 4px;
+}
+
+#social_div #ids {
+  display: none;
+  text-align: left;
+  background-color: rgba(75, 0, 250, 0.5);
+  border-radius: 5px;
+  padding: 6px 2px 0px 2px;
+  font-size: 15px;
+  position: absolute;
+  right: 28px;
+  top: 1px;
+}
+
+#social_div #ids .indi_ids {
+  padding: 0px 0px 12px 0px;
+  margin: 0px;
+}
+
+#social_div #ids .indi_ids .inner {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(119, 61, 253, 0.8)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to left, rgba(119, 61, 253, 0.8), rgba(0, 0, 0, 0));
+  border-radius: 2px;
+  color: white;
+  margin: 0px;
+  padding: 2px 6px 4px 2px;
+  -webkit-transition: ease all 0.4s;
+  transition: ease all 0.4s;
+}
+
+#social_div #ids .indi_ids .email {
+  background-color: rgba(119, 61, 253, 0.8);
+  background-image: none;
+}
+
+#social_div #ids #last_id {
+  padding: 0px 0px 7px 0px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #social_div {
+    font-size: 20px;
+    right: 15px;
+  }
+  #social_div .breaks {
+    height: 4px;
+  }
+  #social_div .mail {
+    height: 2px;
+  }
+  #social_div #ids {
+    padding: 3px 2px 0px 2px;
+    font-size: 15px;
+    position: absolute;
+    top: 1px;
+    right: 24px;
+  }
+  #social_div #ids .indi_ids {
+    padding: 0px 0px 6px 0px;
+    margin: 0px;
+  }
+  #social_div #ids .indi_ids .inner {
+    padding: 2px 4px 2px 2px;
+  }
+  #social_div #ids p {
+    margin: 0px;
+    padding: 0px;
+  }
+  #social_div #ids #last_id {
+    padding: 0px 0px 7px 0px;
+  }
+}
+/*# sourceMappingURL=hello.css.map */
